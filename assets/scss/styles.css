@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.kanit-thin {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.kanit-thin-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.kanit-extralight {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.kanit-extralight-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.kanit-light {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.kanit-light-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.kanit-regular {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.kanit-regular-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.kanit-medium {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.kanit-medium-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.kanit-semibold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.kanit-semibold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.kanit-bold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.kanit-bold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.kanit-extrabold {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.kanit-extrabold-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.kanit-black {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.kanit-black-italic {
+  font-family: "Kanit", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+}
+body aside {
+  display: flex;
+  flex-flow: column;
+  padding: 10px;
+  background-color: rgb(145, 0, 0);
+  width: 250px;
+}
+body aside .aside_header {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: rgb(75, 71, 71);
+  padding: 10px;
+  margin-bottom: 15px;
+}
+body aside .aside_header_user {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+body aside .aside_header_user figure {
+  width: 50px;
+  height: 50px;
+}
+body aside .aside_header_user img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 80%;
+}
+body aside .aside_header_icons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+body aside .aside_header_icons i {
+  font-size: 20px;
+}
+body aside .aside_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+}
+body aside .aside_button button {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: rgb(170, 170, 170);
+  text-transform: capitalize;
+  border: none;
+  width: 80%;
+}
+body aside .aside_contacts {
+  height: calc(100% - 180px);
+  padding: 10px;
+  border-radius: 8px;
+  background-color: rgb(170, 170, 170);
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 12px;
+}
+body aside .aside_contacts ul {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: flex-start;
+  list-style: none;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(168, 0, 0) rgb(255, 255, 255);
+}
+body aside .aside_contacts ul li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-bottom: solid black;
+  width: 100%;
+  padding: 10px 5px;
+}
+body aside .aside_contacts ul li figure {
+  width: 50px;
+  height: 50px;
+}
+body aside .aside_contacts ul li figure img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 80%;
+}
+body main {
+  background-color: rgb(230, 19, 19);
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  padding: 40px;
+}
+body main figure {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 15px;
+  width: 150px;
+  height: 150px;
+}
+body main section {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  max-width: 500px;
+  align-items: center;
+  text-align: center;
+}/*# sourceMappingURL=styles.css.map */
